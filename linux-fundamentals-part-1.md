@@ -26,37 +26,40 @@ In this room, you can interact with Ubuntu Linux directly in your browser
 To do this simply press start machine button and wait for the machine to deploy
 
 ## Task 4 - Running First Few Commands
-We often use command line instead of graphical user interface because it uses less resource and it can be faster to use commands rather than using GUI.
-Commands I Learnt:
-| echo | output any text i put after it |
+In Linux, tasks are often performed using the command line instead of a GUI, which allows faster and more precise system control.
+| Command | Description |
 |------| ------------------------------ |
+| echo | output any text i put after it |
 | whoami | output the current working user |
 
 ## Task 5 - Interacting with Filesystem
-I can do really cool things that i do in GUI like:
-| ls | list everything in the directory |
+In this section, I practiced essential Linux commands used for file navigation, system interaction, and data searching through the command line.
+| Command | Description |
 |----| -------------------------------- |
+| ls | list everything in the directory |
 | cd | change directory |
 | cat | concatenate |
 | pwd | print my current working directory |
-
 
 Additionally i learnt the tree command that displays the tree structure starting from a specified directory path.
 
 ## Task 6 - Searching files
 ### Use of Find:
-I can find something on my machine just by using find -name filename.txt
-But if i dont know the file name i only know that it end with the extension say ".txt". So i can esaily find it by just typing the command find -name *.txt
+Using this command I can find something on my machine just by using " find -name filename.txt " 
+What if i dont know the file name i only know that it end with the extension say " .txt ". So i can esaily find it by just typing the command " find -name *.txt "
 The symbol * known as wildcard can help me list up everything that ends with the extension .txt
 ### Use of Grep:
-Grep is a command that help us find content of the file.
-Usage: grep requiredtext filename.txt
+Grep is a command that help us find specified content of the file.
+
+Usage: " grep requiredtext filename.txt "
 ## Task 7 - Shell Operators
 I learnt some basic operators that would help me in future
-- &      this operator allows us to execute commands in background
-2. &&     execute the second command if the first command succeeds
-3. '>'     it takes input and save that input into the given file, also it will overwrite if something is written in the file
-4. '>>'     same as > but it will append the output to the bottom of the file rather than replacing content
+| Command | Description |
+|---| ----------------------------------------------------------|
+| & | this operator allows us to execute commands in background |
+| && | execute the second command if the first command succeeds |
+| > | it takes input and save that input into the given file, also it will overwrite if something is written in the file |
+| >> | same as > but it will append the output to the bottom of the file rather than replacing content |
 ## Task 8 - Conclusion
 I've covered quite a bit for my first interactions with Linux. These are the essential commands and functions I'll be using whenever I interact with a Linux machine.
 
