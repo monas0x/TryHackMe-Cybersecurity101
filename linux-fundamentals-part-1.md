@@ -28,6 +28,7 @@ To do this simply press start machine button and wait for the machine to deploy
 ## Task 4 - Running First Few Commands
 We often use command line instead of graphical user interface because it uses less resource and it can be faster to use commands rather than using GUI.
 Commands I Learnt:
+| echo | output any text i put after it |
 1. echo     output any text i put after it
 2. whoami   output the current user
 
