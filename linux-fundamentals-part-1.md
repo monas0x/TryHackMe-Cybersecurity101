@@ -50,7 +50,7 @@ Grep is a command that help us find content of the file.
 Usage: grep requiredtext filename.txt
 ## Task 7 - Shell Operators
 I learnt some basic operators that would help me in future
-1. &      this operator allows us to execute commands in background
+- &      this operator allows us to execute commands in background
 2. &&     execute the second command if the first command succeeds
 3. '>'     it takes input and save that input into the given file, also it will overwrite if something is written in the file
 4. '>>'     same as > but it will append the output to the bottom of the file rather than replacing content
