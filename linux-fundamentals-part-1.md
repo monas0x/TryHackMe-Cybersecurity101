@@ -3,14 +3,14 @@
 ## Task 1 - Introduction to Linux
 We are likely using a **Windows** or **Mac** machine, both of which differ in visual design and operation. Just like Windows, iOS, and MacOS, Linux is another operating system, and one of the most popular in the world — powering smart cars, Android devices, supercomputers, home appliances, enterprise servers, and even more.
 
-In this room we cover some history of Linux and also:
+In this room I'll cover some history of Linux and also:
 1. Learn essential commands
 2. search for files and explore basic shell operators
 
 ## Task 2 - Background of Linux
-### where is linux used?
-It is likely fair to say that Linux is more intimidating than OSs like Windows, but it is lightweight, has its own advantages over other OSs
-where Linux is used include:
+### Where is linux used?
+Linux is used for its superior security, privacy, customization, and stability, offering a free, open-source.
+#### Linux is used in:
 1. Internet Infrastructure and Servers
 2. Mobile Devices (Android)
 3. Supercomputers
@@ -22,8 +22,7 @@ Linux actually refers to UNIX-based operating systems. Linux is a free and open 
 Ubuntu and Debian are some common distributions of linux
 
 ## Task 3 - Interaction with machine (Browser-Base) 
-In this room, you can interact with Ubuntu Linux directly in your browser
-To do this simply press start machine button and wait for the machine to deploy
+In this room, I can interact with an Ubuntu Linux machine directly in my browser. Simply pressing the Start Machine button and wait for the system to deploy.
 
 ## Task 4 - Running First Few Commands
 In Linux, tasks are often performed using the command line instead of a GUI, which allows faster and more precise system control.
