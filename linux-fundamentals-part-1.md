@@ -29,15 +29,17 @@ To do this simply press start machine button and wait for the machine to deploy
 We often use command line instead of graphical user interface because it uses less resource and it can be faster to use commands rather than using GUI.
 Commands I Learnt:
 | echo | output any text i put after it |
-1. echo     output any text i put after it
-2. whoami   output the current user
+|------| ------------------------------ |
+| whoami | output the current working user |
 
 ## Task 5 - Interacting with Filesystem
 I can do really cool things that i do in GUI like:
-1. ls      list everything in the directory
-2. cd      change directory
-3. cat     concatenate
-4. pwd     print my current working directory
+| ls | list everything in the directory |
+|----| -------------------------------- |
+| cd | change directory |
+| cat | concatenate |
+| pwd | print my current working directory |
+
 
 Additionally i learnt the tree command that displays the tree structure starting from a specified directory path.
 
