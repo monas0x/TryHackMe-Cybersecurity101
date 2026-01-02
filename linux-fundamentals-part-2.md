@@ -2,35 +2,35 @@
 
 ## Task 1 - Introduction
 In this journey, I will explore flags, arguments, and advanced filesystem operations. I am navigating these tasks to build my understanding of these important concepts.
-In this room I will cover:
-1. Learn first few commands using flags and arguments
-2. Advance knowledge of the filesystem
-3. Running first few scripts and executables
+In this room, I will cover:
+1. Learning first few commands using flags and arguments
+2. Gaining the advance knowledge of the filesystem
+3. Running the first few scripts and executables
 
 ## Task 2 - Accessing Linux machine using SSH
 ### What is SSH?
-Secure Shell is a protocol between devices in an encrypred form. Using cryptography, any input we send in a human-readable format is encrypted for travelling over a network. Once it reaches the remote machine it is then unencrypted.
+Secure Shell is a protocol between devices in an encrypted form. Using cryptography, any input we send in a human-readable format is encrypted while travelling over a network. Once it reaches the remote machine it is then unencrypted.
 - SSH allows us to execute commands remotely on another device
-- Any data sent between devices is encrypted when it is sent over a network
+- Any data sent between devices is encrypted over a network
 ### Deploying Linux machine
-To connect to a device remotely using SSH. We need the device username, password, and ip address. After knowing all of this we can use the command,`ssh user@192.168.1`. Proceeding this command I need to type the password. After this I am now remotely connected to the device.
+To connect to a device remotely using SSH, we need the device's username, password, and IP address. After having this information, we can use the command:`ssh user@192.168.1`. After entering this command, we need to type the password. Once done, we are now remotely connected to the device.
 
 ## Task 3 - Introduction to Flags and Switches
 Flags and switches are command-line parameters in Linux that modify a command's behavior, add functionality, or control output formatting. Usually prefixed by one or two hyphens, they allow us to customize how programs run.
 | commands | Description |
 |----------| ------------|
-|ls --all| shows directories that are hidden eg. `."hidden"`
-|man ls| displays manual page that includes documentation system for commands and  functions|
+|ls --all| Displays directories that are hidden eg. `."hidden"`
+|man ls| "Displays the manual page for a command, including documentation and functions|
 ## Task 4 - Filesystem Interaction Continued
 Here are some commands that I learned throughout this room:
 | commands | Full name | Description |
 |----------| ----------| ------------|
-|touch|touch|creates a file|
-|mkdir|make directory| creates a folder|
-|cp|copy|copy a file or folder|
-|mv|move|move a file or folder|
-|rm|remove|delete a file or folder|
-|file| file|determine the type of a file|
+|touch|touch|Creates a file|
+|mkdir|make directory| Creates a folder|
+|cp|copy|Copy a file or folder|
+|mv|move|Move a file or folder|
+|rm|remove|Delete a file or folder|
+|file| file|Determine the type of a file|
 
 ## Task 5 - Permission101
 In Linux, permissions decide who can read, write, or run files and folders. Users and groups help manage these permissions so the right people can access the right things.
@@ -46,10 +46,10 @@ When I use `ls -l` it shows file permissions, the number of links, the owner, th
 |myfile| Name of the file |
 
 To change user use `su username` and provide password.
-If I need help about a command I will use `man "command name"`.
+If I need help about a command, I will use `man "command name"`.
 
 ## Task 6 - Common Directories
-In Linux, the filesystem is organized into directories, each serving a specific purpose. Some directories store system files, others hold user data, temporary files, or configuration settings.
+In Linux, the filesystem is organized into directories, each serving a specific purpose. Some directories store system files, while others hold user data, temporary files, or configuration settings.
 | Directory | Description |
 |-----------|-------------|
 | /etc      | Contains system and application configuration files |
@@ -60,7 +60,7 @@ In Linux, the filesystem is organized into directories, each serving a specific 
 ## Task 7 - Conclusions
 This room was quite-heavy and covered quite a range og the fundamentals in getting familiar with Linux. This room taught me:
 - How to connect to a Linux machine remotely using SSH
-- Advancing use of commands by providing flags and switches
+- How to use commands more effectively with flags and switches
 - Introduction to the file permissions and switching users
 - Important root directories that contains important system files
 
