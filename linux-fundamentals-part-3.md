@@ -2,7 +2,7 @@
 ## Task 1 - Introduction
 This room is showcasing some useful utilities and applications that are likely to be used day-to-day. I am also going to advance my skills by learning about automation, package management, and service/application logging.
 
-Let's Proceed!
+Let's proceed!
 
 ## Task 2 - Deploy Linux Machine
 I’ve logged into the Linux Fundamentals Part 3 machine using SSH and have deployed the AttackBox successfully!
@@ -43,9 +43,9 @@ The `python3 -m http.server` is used to quickly start a simple HTTP server in Li
 
 ## Task 5 - Processes 101
 ### Viewing Processes
-We can use `ps` command to get a list of the running processes and some additional information such as their status code, session that is running it, usage time of the CPU it is using, and the name of the actual program or command that is being executed. The `ps aux` is used to see the processes run by other users and those that don't run from a session. Another useful command is the `top` command that gives you real-time statistics about the processes running on your system instead of a one-time view. These statistics refresh every 10 seconds, also refresh when you use the arrow keys to browse the various rows.
+We can use `ps` command to get a list of the running processes and some additional information such as their status code, session that is running them, CPU usage time, and the name of the actual program or command that is being executed. The `ps aux` is used to see the processes run by other users and those that don't run from a session. Another useful command is the `top` command that gives you real-time statistics about the processes running on your system instead of a one-time view. These statistics refresh every 10 seconds, also refresh when you use the arrow keys to browse the various rows.
 ### Managing Processes
-To kill a process simply use the `kill` command followed by Process ID `kill 765`.
+To kill a process simply use the `kill` command followed by process ID `kill 765`.
 Below are some of the signals that we can send to a process when it is killed:
 - SIGTERM-Kill the process, but allow it to do some cleanup tasks
 - SIGKILL-Kill the process, but does not allow it to do any cleanup tasks
@@ -61,7 +61,7 @@ To start services on boot, use the command `systemctl start servicename`. We can
 ## Task 6 - Maintaining Your System: Automation
 
 ### Cron Process
-Cron processes are those that start during boot, which are responsible for facilitating and managing cron jobs. We can interact with it using the `crontab` command.
+Cron processes are those that start during boot, which are responsible for facilitating and managing cron jobs. We can interact with them using the `crontab` command.
 Crontabs require six specific values:
 | Value | Description |
 |----| -------------------------------- |
@@ -85,7 +85,7 @@ Logs in Linux are files that record system activity, errors, and events, helping
 After completing this room, I learned:
 
 - Using terminal text editors
-- General utilities such as downloading and serving files using a python web server
+- General utilities such as downloading and serving files using a Python web server
 - Process management
 - Maintaining and automating the system by the use of crontab, package management, and reviewing logs
 
