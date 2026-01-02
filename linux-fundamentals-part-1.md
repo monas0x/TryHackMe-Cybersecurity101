@@ -51,7 +51,7 @@ Grep is a command that helps us find specified content of the file.
 
 Usage: `grep requiredtext filename.txt`
 ## Task 7 - Shell Operators
-I learned some basic operators that would help me in the future
+I learned some basic operators that would help me in the future.
 | Command | Description |
 |---| ----------------------------------------------------------|
 | & | this operator allows us to execute commands in the background |
