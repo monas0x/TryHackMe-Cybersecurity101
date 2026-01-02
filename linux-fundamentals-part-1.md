@@ -43,13 +43,13 @@ Additionally, I learned the tree command that displays the tree structure starti
 
 ## Task 6 - Searching files
 ### Use of Find:
-Using this command I can find something on my machine just by using " find -name filename.txt " 
-What if I dont know the file name I only know that it ends with the extension say " .txt ". So i can easily find it by just typing the command " find -name *.txt "
-The symbol * known as a wildcard can help me list up everything that ends with the extension .txt
+Using this command I can find something on my machine just by typing  `find -name filename.txt`
+What if I dont know the file name I only know that it ends with the extension say `.txt`. So i can easily find it by just typing the command ` find -name` `.txt`
+The symbol `*` known as a wildcard can help me list up everything that ends with the extension `.txt`
 ### Use of Grep:
 Grep is a command that helps us find specified content of the file.
 
-Usage: " grep requiredtext filename.txt "
+Usage: `grep requiredtext filename.txt`
 ## Task 7 - Shell Operators
 I learned some basic operators that would help me in future
 | Command | Description |
