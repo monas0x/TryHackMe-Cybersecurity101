@@ -1,4 +1,4 @@
-# Limux Fundamentals Part 02
+# Linux Fundamentals Part 02
 
 ## Task 1 - Introduction
 In this journey, I will explore flags, arguments, and advanced filesystem operations. I am navigating these tasks to build my understanding of these important concepts.
@@ -44,5 +44,24 @@ When I use `ls -l` it shows file permissions, the number of links, the owner, th
 |1024| File size in bytes |
 |Jan 02 13:45| Last modified date and time |
 |myfile| Name of the file |
+
+To change user use `su username` and provide password.
+If I need help about a command I will use `man "command name"`.
+
+## Task 6 - Common Directories
+In Linux, the filesystem is organized into directories, each serving a specific purpose. Some directories store system files, others hold user data, temporary files, or configuration settings.
+| Directory | Description |
+|-----------|-------------|
+| /etc      | Contains system and application configuration files |
+| /var      | Stores variable files like logs, databases, and caches |
+| /tmp      | Temporary files used by the system and applications |
+| /root     | Home directory of the root user |
+
+## Task 7 - Conclusions
+This room was quite-heavy and covered quite a range og the fundamentals in getting familiar with Linux. This room taught me:
+- How to connect to a Linux machine remotely using SSH
+- Advancing use of commands by providing flags and switches
+- Introduction to the file permissions and switching users
+- Important root directories that contains important system files
 
 
