@@ -1,27 +1,27 @@
 # Linux Fundamentals Part 03
 ## Task 1 - Introduction
-This room is showcasing some useful utilities and applications that are likely to use day-to-day. I'm also going to advance my skills by learning about automation, package management, and service/application logging.
+This room is showcasing some useful utilities and applications that are likely to be used day-to-day. I am also going to advance my skills by learning about automation, package management, and service/application logging.
 
 Let's Proceed!
 
 ## Task 2 - Deploy Linux Machine
 I’ve logged into the Linux Fundamentals Part 3 machine using SSH and have deployed the AttackBox successfully!
 
-Using the command `ssh tryhackme@machineip` and using the provided password `tryhackme`, I have logged into the machine.
+Using the command `ssh tryhackme@machineip` and the provided password `tryhackme`, I have logged into the machine.
 
-## Task 3 - Terminal Tex Editors
+## Task 3 - Terminal Text Editors
 ### Nano
-Nano is a simple, user-friendly terminal text editor, ideal for quickly creating or editing text files. If the file exists, Nano opens it, if not, it creates a new file. You can open a file using nano filename, type your text, and save it with `Ctrl + O` and exit with `Ctrl + X`. 
+Nano is a simple, user-friendly terminal text editor, ideal for quickly creating or editing text files. If the file exists, Nano opens it; if not, it creates a new file. You can open a file using `nano filename`, type your text, and save it with `Ctrl + O` and exit with `Ctrl + X`. 
 ### Vim
 Vim is a terminal editor designed for efficient text editing. You can  open a file with `vim filename`, enter insert mode by pressing `i` to type text, then press `Esc` to switch back to command mode for saving `:w` or exiting `:q`. Vim allows advanced users to navigate and edit files very quickly.
 ## Task 4 - General/Useful Utilities
-### wget
-The wget command in Linux is used to download files from the internet using protocols like HTTP, HTTPS, or FTP. You can use it by typing wget followed by the file URL, for example, wget `http://example.com/file.txt`. It can also resume interrupted downloads and download files in the background.
-### Transferring Files From Yout Host-SCP (SSH)
-Secure copy is just copying files between two devices securely on a remote session and provide both authentication and encryption.
+### The wget command
+The wget command in Linux is used to download files from the internet using protocols like HTTP, HTTPS, or FTP. You can use it by typing `wget` followed by the file URL, for example, wget `http://example.com/file.txt`. It can also resume interrupted downloads and download files in the background.
+### Transferring Files From Your Host-SCP (SSH)
+Secure copy is just copying files between two devices securely on a remote session and provides both authentication and encryption.
 SCP allows us to:
 - Copy files & directories from my current system to a remote system
-- copy files & directories from a remote system to my current system
+- Copy files & directories from a remote system to my current system
 #### Copy files from current system to remote system
 `scp myfile.txt user@192.168.1.1:/home/kali/yourfile.txt`
 | Value | Variable |
@@ -39,20 +39,20 @@ SCP allows us to:
 | myfile.txt | Name of the file on the remote system |
 | yourfile.txt | Name that we want to store the file as on current system |
 ### Serving Files From your Host-WEB
-The `python3 -m http.server` is used to quickly start a simple HTTP server in Linux. It shares the current directory over HTTP, allowing other devices on the same network to access files through a web browser.To access the webpage from another device, enter the IP address followed by the port number, such as `http://192.168.1.10:8000`
+The `python3 -m http.server` is used to quickly start a simple HTTP server in Linux. It shares the current directory over HTTP, allowing other devices on the same network to access files through a web browser. To access the webpage from another device, enter the IP address followed by the port number, such as `http://192.168.1.10:8000`
 
 ## Task 5 - Processes 101
 ### Viewing Processes
-We can use `ps` command to get a list of the running processes and some additional information such as its status code, session that is running it, usage time of the CPU it is using, and the name of the  actual program or command that is being executed. The `ps aux` is used to see the processes run by other users and those that dont run from a session. Another useful command is `top` command that gives you real-time statstics about the processes running on your system instead of one-time view. These statistics refresh every 10 seconds, also refresh when you use the arrow keys to browse the various rows.
+We can use `ps` command to get a list of the running processes and some additional information such as their status code, session that is running it, usage time of the CPU it is using, and the name of the actual program or command that is being executed. The `ps aux` is used to see the processes run by other users and those that dont run from a session. Another useful command is `top` command that gives you real-time statistics about the processes running on your system instead of one-time view. These statistics refresh every 10 seconds, also refresh when you use the arrow keys to browse the various rows.
 ### Managing Processes
 To kill a process simply use the `kill` command followed by process id `kill 765`.
 Below are some of the signals that we can send to a process when it is killed:
 - SIGTERM-Kill the process, but allow it to do some cleanup tasks
-- SIGKILL-Kill the process, but doesn't allow it to do any cleanup tasks
+- SIGKILL-Kill the process, but does not allow it to do any cleanup tasks
 - SIGSTOP-Stop/suspend a process
 
 ### How to Start Services on Boot
-To start services on boot, use command `systemctl start servicename`. We can do four functions with `systemctl`
+To start services on boot, use the command `systemctl start servicename`. We can do four functions with `systemctl`
 * start
 * stop
 * Enable
@@ -61,14 +61,14 @@ To start services on boot, use command `systemctl start servicename`. We can do 
 ## Task 6 - Maintaining Your System: Automation
 
 ### Cron Process
-Cron processes are those that starts during boot, which are responsible for facilitating and managing cron jobs. We can interact with it using `crontabs` command.
+Cron processes are those that start during boot, which are responsible for facilitating and managing cron jobs. We can interact with it using `crontab` command.
 Crontabs require six specific values:
 | Value | Description |
 |----| -------------------------------- |
 | MIN | What minute to execute at |
 | HOUR | What hour to execute at |
 | DOM | What day of the month to execute at |
-| MON | What day of the year to execute at |
+| MON | What month of the year to execute at |
 | DOW | What day of the week to execute at |
 | CMD | The actual command that will be executed |
 
@@ -82,12 +82,12 @@ In Linux, software repositories are online storage locations that contain packag
 Logs in Linux are files that record system activity, errors, and events, helping users and administrators understand what is happening on the system. They are usually stored in the `/var/log` directory.
 
 ## Task 9 - Conclusions
-After completeing this room, I learned:
+After completing this room, I learned:
 
-- Using terminal text editor
+- Using terminal text editors
 - General utilities such as downloading and serving files using a python webserver
-- Processes Management
-- Maintaning and automating system by the use of crontabs, package management, and reviewing logs
+- Processes management
+- Maintaning and automating system by the use of crontab, package management, and reviewing logs
 
 
 
