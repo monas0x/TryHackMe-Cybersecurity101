@@ -15,7 +15,7 @@ MSConfig can be launched from the Start Menu or the Run dialog. The utility has 
 - Startup - Startup items are managed here
 - Tools - Provides quick access to various system utilities
 
-#### Advance System Settings
+#### Advanced System Settings
 Windows provides additional configuration for performance and system recovery through Advanced System Settings.
 #### Performance Options
 - Page file acts as extra virtual memory when physical RAM is full, preventing slowdowns or crashes.
@@ -99,7 +99,7 @@ Each tab provides more detailed and specific information related to it.
 
 ## Task 7 - Command Prompt
 
-#### Command Prompy (cmd)
+#### Command Prompt (cmd)
 In early operating systems, the command line was the only way users could interact with the system. When the graphical user interface (GUI) was introduced, it allowed users to perform tasks using visual elements instead of typing commands. Despite this, the command prompt remains a powerful way to interact directly with the operating system.
 
 #### Network and Troubleshooting Commands
@@ -107,7 +107,7 @@ The **ipconfig** command is commonly used to view network configuration details 
 
 Another useful command is `netstat`, which displays active network connections and protocol statistics.
 
-The `net` command is used to manage network resources and supports multiple sub-commands. To view its help menu, use `net help`, and for specific sub-commands such as user management, `use net help user`.
+The `net` command is used to manage network resources and supports multiple sub-commands. To view its help menu, use `net help`, and for specific sub-commands such as user management, use `net help user`.
 The command `cls` is used to clear the command prompt screen.
 
 ## Task 8 - Registry Editor
