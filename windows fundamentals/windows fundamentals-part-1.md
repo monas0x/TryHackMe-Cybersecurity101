@@ -101,4 +101,27 @@ Most home users run Windows as a **Local administrator**, giving full system con
 
 ### Viewing Installed Applications
 To check installed programs:
-- Open **Control Panel** → **Programs** → **Programs and Features**
+- `Open Control Panel → Programs → Programs and Features`
+This lists all installed software along with publisher names and versions, helping verify what’s on the system.
+#### Tips for Finding Settings
+- Use the Start Menu search to locate specific settings quickly.
+- Clicking a search result opens either Settings or Control Panel, depending on the task.
+
+## Task 9 - Task Manager
+
+#### Task Manager
+The **Task Manager** provides information about running applications and processes, including system resource usage such as **CPU** and **RAM**, which can be viewed under the **Performance tab**.
+- Access Task Manager by right-clicking the taskbar.
+- By default, it opens in **Simple View**, showing limited information. Click **More details** to see a full view with processes, performance metrics, and other deatails.
+## Task 10 - Conclusions
+This module provided a practical overview of the Windows operating system, focusing on its structure, tools, and user management. It helped me understand how to navigate the system, manage accounts, maintain security, and monitor system performance effectively.
+#### What I Learned
+- Different user account types and their privileges (Administrator and Standard User)
+- The purpose and functioning of **User Account Control** (**UAC**)
+- How to use **Settings** and **Control Panel** to configure the system
+- Viewing and managing installed applications
+- Using the **Task Manager** to monitor running processes and system performance
+
+
+
+
